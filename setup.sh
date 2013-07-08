@@ -29,6 +29,10 @@ sudo apt-get install -y emacs24 emacs24-el emacs24-common-non-dfsg
 #install heroku toolbelt
 wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 
+#install node modules for hw3-3
+npm install cheerio
+npm install commander
+
 
 # git pull and install dotfiles as well
 cd $HOME
